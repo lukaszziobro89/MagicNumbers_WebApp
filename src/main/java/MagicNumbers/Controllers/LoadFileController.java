@@ -21,8 +21,8 @@ public class LoadFileController {
     }
 
 
-    @RequestMapping(value = "/showLoadFileForm")
-    public String showForm(){
+    @RequestMapping(value = "showLoadFileForm")
+    public String showLoadingForm(){
         return "fileLoadingForm";
     }
 
