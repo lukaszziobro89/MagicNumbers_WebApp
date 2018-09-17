@@ -42,7 +42,7 @@
 <p style="text-align:center">GIF which is actually JPG</p>
 <p>
     <a href="${pageContext.request.contextPath}/resources/files/j1.jpg.gif" download >
-        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/icons/gif-icon.png" width="100" height="100">
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/icons/jpg.png" width="100" height="100">
     </a>
 </p>
 
@@ -56,7 +56,7 @@
 <p style="text-align:center">PNG file</p>
 <p>
     <a href="${pageContext.request.contextPath}/resources/files/peeng.png" download >
-        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/file_icon.png" width="100" height="100">
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/icons/png.png" width="100" height="100">
     </a>
 </p>
 

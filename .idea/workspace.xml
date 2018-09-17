@@ -6,38 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee17dd49-fa3f-446e-8a34-b1edb45d5c61" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/files/UTF16_big.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/files/UTF16_little.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/files/UTF8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/files/g1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/files/g2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/files/j1.jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/files/j2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/files/peeng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/icons/gif-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/icons/jpg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/icons/png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/mnum.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MagicNumbers/Controllers/LoadFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MagicNumbers/Controllers/LoadFileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MagicNumbers/app/MagicNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MagicNumbers/app/MagicNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fileLoadingForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fileLoadingForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagicNumbers.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/MagicNumbers.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/classes/MagicNumbers/Controllers/LoadFileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/classes/MagicNumbers/Controllers/LoadFileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/classes/MagicNumbers/app/MagicNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/classes/MagicNumbers/app/MagicNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/view/fileLoadingForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/MagicNumbers/WEB-INF/view/fileLoadingForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagicNumbers/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/MagicNumbers/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MagicNumbers/resources/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MagicNumbers/Controllers/LoadFileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MagicNumbers/Controllers/LoadFileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MagicNumbers/app/MagicNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MagicNumbers/app/MagicNumbers.class" afterDir="false" />
-    </list>
+    <list default="true" id="ee17dd49-fa3f-446e-8a34-b1edb45d5c61" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="84" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="84" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fileLoadingForm.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fileLoadingForm.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fileLoadingForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="65" column="101" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
+            <state relative-caret-position="204">
+              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,6 +43,8 @@
                 <element signature="n#style#0;n#p#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#8;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#14;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,42 +151,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicNumbers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicNumbers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicNumbers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicNumbers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicNumbers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicNumbers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagicNumbers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagicNumbers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -403,16 +339,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537200168199</updated>
-      <workItem from="1537200171788" duration="8799000" />
+      <workItem from="1537200171788" duration="9472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8799000" />
+    <option name="totallyTimeSpent" value="9472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="864" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -432,11 +367,11 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32994923" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19597316" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32994923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19597316" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
@@ -578,23 +513,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/spring_icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/file_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/files/g1.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="84" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/my-test.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -603,10 +523,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/file_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fileLoadingForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="65" column="101" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -614,6 +537,20 @@
             <element signature="n#style#0;n#p#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#8;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
