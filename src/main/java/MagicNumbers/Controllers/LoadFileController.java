@@ -14,14 +14,15 @@ import java.io.File;
 public class LoadFileController {
 
     @RequestMapping(value = "/loadFile", method = RequestMethod.POST)
-    public String loadFile(@RequestParam("file") File file, ModelMap modelMap) {
-        String message = MagicNumbers.checkTheFile(file);
+    public String loadFile(@RequestParam("file") MultipartFile file, ModelMap modelMap) {
+        File convertedFile = MagicNumbers.convert(file);
+        String message = MagicNumbers.checkTheFile(convertedFile);
         modelMap.addAttribute("message", message);
         return "typeFileConfirmation";
     }
 
 
-    @RequestMapping(value = "showLoadFileForm")
+    @RequestMapping(value = "/showLoadFileForm")
     public String showLoadingForm(){
         return "fileLoadingForm";
     }

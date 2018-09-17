@@ -2,6 +2,7 @@ package MagicNumbers.app;
 
 import MagicNumbers.Exceptions.DifferentTypesException;
 import MagicNumbers.Exceptions.UnsupportedExtensionException;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
 
@@ -113,5 +114,19 @@ public class MagicNumbers {
             }
         }
         return fileExtension;
+    }
+
+    public static File convert(MultipartFile file)
+    {
+        File convFile = new File(file.getOriginalFilename());
+        try {
+            convFile.createNewFile();
+            FileOutputStream fos = new FileOutputStream(convFile);
+            fos.write(file.getBytes());
+            fos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return convFile;
     }
 }
