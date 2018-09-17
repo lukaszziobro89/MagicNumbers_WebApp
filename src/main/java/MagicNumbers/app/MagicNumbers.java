@@ -11,7 +11,8 @@ public class MagicNumbers {
      * Method checks type of input file
      * @param file input file that needs to be checked what type it is
      */
-    public static void checkTheFile(File file){
+    public static String checkTheFile(File file){
+        String message = "start";
         // read file
         try(DataInputStream inputFile = new DataInputStream(new BufferedInputStream(new FileInputStream(file)))){
             // get file extension
@@ -19,6 +20,8 @@ public class MagicNumbers {
             // check if it's text file
             if(checkIfTextFile(file)){
                 System.out.println("This is text file.");
+                message = "This is text file.";
+                return message;
             } else{
                 // read magic numbers
                 String magicNumbers = getMagicNumbers(file);
@@ -31,6 +34,8 @@ public class MagicNumbers {
                     // if actual file type is the same as input file extension then it's ok
                 }else if(actualFileExtension.startsWith(inputFileExtension.toUpperCase())){
                     System.out.println("File type is " + inputFileExtension);
+                    message = "File type is " + inputFileExtension;
+                    return message;
                 } else {
                     // throw exception if file extension is different then actual
                     throw new DifferentTypesException(inputFileExtension, actualFileExtension);
@@ -39,6 +44,7 @@ public class MagicNumbers {
         } catch (IOException | DifferentTypesException | UnsupportedExtensionException ex){
             ex.printStackTrace();
         }
+        return message;
     }
 
     /**
