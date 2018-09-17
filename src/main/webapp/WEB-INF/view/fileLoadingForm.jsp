@@ -9,20 +9,7 @@
 <body>
 
 <br>
-File to upload needs to be in txt format with list of details separated by comma ',':<br>
-<i>Name,Surname,Email</i><br><br>
-<b>Example:</b><br>
-Amalle,Prattin,aprattin0@comsenz.com<br>
-Umberto,Tunnoch,utunnoch1@aboutads.info<br>
-Britni,Bunworth,bbunworth2@cdc.gov<br>
 <br>
-<br>
-<h2>Example file to upload:</h2><br>
-<p>
-    <%--<a href="${pageContext.request.contextPath}/resources/students_list.txt" download >--%>
-        <%--<img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/file_icon.png" width="100" height="100">--%>
-    <%--</a>--%>
-</p>
 <br>
 <h2>
     Upload file:
@@ -33,10 +20,66 @@ Britni,Bunworth,bbunworth2@cdc.gov<br>
 </form:form>
 
 <br><br>
-<form class="left_align" action="loadFile" method="get"><input type="submit" class="btn success" value="Show students list"/></form>
-<form class="left_align" action="<%=request.getContextPath() %>/"><input type="submit" class="btn success" value="Home page"/></form>
+<h2>
+    Example files for upload:
+</h2>
 
 
+<p style="text-align:center">TXT which is actually a GIF:</p>
+<p>
+    <a href="${pageContext.request.contextPath}/resources/files/g1.txt" download >
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/icons/gif-icon.png" width="100" height="100">
+    </a>
+</p>
+
+<p style="text-align:center">GIF file</p>
+<p>
+    <a href="${pageContext.request.contextPath}/resources/files/g2.gif" download >
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/icons/gif-icon.png" width="100" height="100">
+    </a>
+</p>
+
+<p style="text-align:center">GIF which is actually JPG</p>
+<p>
+    <a href="${pageContext.request.contextPath}/resources/files/j1.jpg.gif" download >
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/icons/gif-icon.png" width="100" height="100">
+    </a>
+</p>
+
+<p style="text-align:center">JPG file</p>
+<p>
+    <a href="${pageContext.request.contextPath}/resources/files/j2.jpg" download >
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/icons/jpg.png" width="100" height="100">
+    </a>
+</p>
+
+<p style="text-align:center">PNG file</p>
+<p>
+    <a href="${pageContext.request.contextPath}/resources/files/peeng.png" download >
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/file_icon.png" width="100" height="100">
+    </a>
+</p>
+
+<p style="text-align:center">UTF8 TXT file</p>
+<p>
+    <a href="${pageContext.request.contextPath}/resources/files/UTF8.txt" download >
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/file_icon.png" width="100" height="100">
+    </a>
+</p>
+
+<p style="text-align:center">UTF16 Big Endian TXT file</p>
+<p>
+    <a href="${pageContext.request.contextPath}/resources/files/UTF16_big.txt" download >
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/file_icon.png" width="100" height="100">
+    </a>
+</p>
+
+<p style="text-align:center">UTF16 Little Endian TXT file</p>
+<p>
+    <a href="${pageContext.request.contextPath}/resources/files/UTF16_little.txt" download >
+        <img class="center_align" border="0" src="${pageContext.request.contextPath}/resources/file_icon.png" width="100" height="100">
+    </a>
+</p>
 
 </body>
 </html>

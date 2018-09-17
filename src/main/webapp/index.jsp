@@ -20,11 +20,14 @@
 
 <br>
 <br>
-<p style="text-align:center;">
-    <input type="submit" onclick="doSomeWork()" value="Simple alert"/>
-</p>
+
 <p style="text-align:center;">
     <input type="submit" onclick="printTime()" value="Get time"/>
+</p>
+
+<br>
+<p style="text-align:center;">
+    <img src="${pageContext.request.contextPath}/resources/images/mnum.jpg" sizes="313x238"/>
 </p>
 
 </body>

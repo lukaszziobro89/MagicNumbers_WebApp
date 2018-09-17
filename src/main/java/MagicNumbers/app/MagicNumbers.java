@@ -13,7 +13,7 @@ public class MagicNumbers {
      * @param file input file that needs to be checked what type it is
      */
     public static String checkTheFile(File file){
-        String message = "start";
+        String message = "";
         // read file
         try(DataInputStream inputFile = new DataInputStream(new BufferedInputStream(new FileInputStream(file)))){
             // get file extension
@@ -27,7 +27,7 @@ public class MagicNumbers {
                 // read magic numbers
                 String magicNumbers = getMagicNumbers(file);
                 System.out.println("Magic numbers: " + magicNumbers);
-                // convert magic numbers to correspond file type from FileTypes class
+                // convertMultipartFileToFile magic numbers to correspond file type from FileTypes class
                 String actualFileExtension = convertMagicNumbersToFileType(magicNumbers);
                 // if magic numbers are not present in FileTypes class then it is UnknownType
                 if (actualFileExtension.startsWith(("UnknownType"))){
@@ -43,9 +43,9 @@ public class MagicNumbers {
                 }
             }
         } catch (IOException | DifferentTypesException | UnsupportedExtensionException ex){
-            ex.printStackTrace();
+            message = ex.getMessage();
+            return message;
         }
-        return message;
     }
 
     /**
@@ -116,7 +116,7 @@ public class MagicNumbers {
         return fileExtension;
     }
 
-    public static File convert(MultipartFile file)
+    public static File convertMultipartFileToFile(MultipartFile file)
     {
         File convFile = new File(file.getOriginalFilename());
         try {

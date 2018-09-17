@@ -15,7 +15,7 @@ public class LoadFileController {
 
     @RequestMapping(value = "/loadFile", method = RequestMethod.POST)
     public String loadFile(@RequestParam("file") MultipartFile file, ModelMap modelMap) {
-        File convertedFile = MagicNumbers.convert(file);
+        File convertedFile = MagicNumbers.convertMultipartFileToFile(file);
         String message = MagicNumbers.checkTheFile(convertedFile);
         modelMap.addAttribute("message", message);
         return "typeFileConfirmation";
